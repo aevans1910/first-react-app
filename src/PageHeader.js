@@ -3,8 +3,10 @@ import './PageHeader.css'
 
 function PageHeader() {
     return (
-        <div>
-            <h1>Name of site here</h1>
+        <div className="PageHeader">
+            <header>
+                <h1>SF Public Spaces</h1>
+            </header>
         </div>
     )
 }
