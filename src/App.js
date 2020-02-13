@@ -1,6 +1,7 @@
 import React from 'react';
 import PageHeader from './PageHeader';
 import PageContent from './PageContent';
+import PageFooter from './PageFooter';
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <PageHeader />
       <PageContent />
+      <PageFooter />
     </div>
   );
 }
